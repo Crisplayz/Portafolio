@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+	background: #f7f7f7;
+    /*font-family: "Oswald", sans-serif;*/
+    font-size: 16px;
+}
+
+/*Aqui modificamos a cristian zamora el logo*/
+.logo{
+	width: 70%;
+	border-radius: 30px;
+
+}
+
+/*aqui modificamos el titulo*/
+header{
+	display: block;
+}
+
+.form{
+	text-align: center;
+
+}
+
+.titulo{
+	color: #f7f7f7;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 16px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #808080;
+    -webkit-box-shadow: inset 1px 1px 0 #fff;
+    -moz-box-shadow: inset 1px 1px 0 #fff;
+    box-shadow: inset 1px 1px 0 #fff;
+    padding: 17px 40px;
+    position: relative;
+}
+
+.titulo h1{
+	text-align: center;
+}
+
+/*hasta aqui*/
+
+.container{
+    background:#f7f7f7;
+    filter: contrast(30);
+    width: 50%;
+
+}
+
+.caja{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 50px;
+    border-radius: 50%;
+    filter: blur(20px);
+   
+}
+
+.caja1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 50px;
+    border-radius: 50%;
+    filter: blur(20px);
+     animation: trasladar 5s alternate infinite;
+
+
+}
+
+@keyframes trasladar {
+    0%{
+       
+       transform: translate(0);
+    }
+   
+    50%{
+      transform: translate(120px);
+    }
+
+    60%{
+      transform: translate(140px);
+    }
+
+   
+   100%{
+     transform: translate(180px);
+     background: #f7f7f7;
+   }
+}
+
+.presentacion{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    font-family:"Oswald", sans-serif;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+
+}
+
+.a{
+    color: #FFFAF0;
+    background: #00008B;
+    border-radius: 70px;
+    width: 10%;
+    text-align: center;
+
+}
+
+.a:hover{
+    background: #00BFFF;
+
+}
